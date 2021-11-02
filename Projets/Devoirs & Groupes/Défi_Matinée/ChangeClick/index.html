@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Button</title>
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            function changeText(value) {
+                document.getElementById('pText').innerHTML = value + "<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>";
+            }
+        </script>
+
+        <input type="button" value="Features" id="b1" onclick="changeText(this.value);"/>
+
+        <input type="button" value="Delivery" id="b2" onclick="changeText(this.value);"/>
+
+        <input type="button" value="Shipping" id="b3" onclick="changeText(this.value);"/>
+
+        <input type="button" value="Returns" id="b4" onclick="changeText(this.value);"/>
+
+        <input type="button" value="Manage" id="b5" onclick="changeText(this.value);"/>
+
+        <!-- <h1>Features</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corrupti amet id esse consectetur, 
+        excepturi rerum similique unde nihil debitis voluptates ut ducimus. Mollitia at voluptatem magnam voluptatum, rem vero.</p>
+        <h1>Delivery</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corrupti amet id esse consectetur, 
+        excepturi rerum similique unde nihil debitis voluptates ut ducimus. Mollitia at voluptatem magnam voluptatum, rem vero.</p>
+        <h1>Shipping</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corrupti amet id esse consectetur, 
+        excepturi rerum similique unde nihil debitis voluptates ut ducimus. Mollitia at voluptatem magnam voluptatum, rem vero.</p>
+        <h1>Returns</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corrupti amet id esse consectetur, 
+        excepturi rerum similique unde nihil debitis voluptates ut ducimus. Mollitia at voluptatem magnam voluptatum, rem vero.</p> -->
+
+        <p id="pText"></p>
+    </body>
+</html>

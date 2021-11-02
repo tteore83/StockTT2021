@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+:root {
+  --white: #ffffff;
+  --black: #09101d;
+  --blue: #3c7de1;
+  --blue-dark: #2158ad;
+  --blue-light: #e6ebf6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: var(--black);
+}
+
+header {
+  height: 110px;
+  background-color: var(--blue-light);
+  padding: 12px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+header .tab .list {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+}
+
+header .tab .list .item {
+  align-self: flex-end;
+  height: 36px;
+}
+
+header .tab .list .item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9em;
+  color: var(--blue);
+}
+
+header .tab .list .item:hover {
+  border-bottom: 3px solid var(--blue);
+  transition: all 150ms ease-in-out;
+}
+
+header .tab .list .item a:hover {
+  color: var(--blue-dark);
+}
+
+main {
+  padding: 12px;
+  width: 80%;
+}
+
+main section {
+  display: none;
+}
+
+main section.open {
+  display: block;
+}
+
+/**
+ * Dropdown 
+ * ---
+ */
+:root {
+  --white: #ffffff;
+  --black: #09101d;
+  --blue: #3c7de1;
+  --blue-dark: #2158ad;
+  --blue-light: #e6ebf6;
+  --gray-light: #cccccc;
+  --shadow: rgba(0, 0, 0, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Menu déroulant */
+.dropdown {
+  position: relative;
+}
+
+.dropdown__button {
+  cursor: pointer;
+}
+
+.dropdown__button-arrow {
+  width: 14px;
+}
+
+.dropdown__menu {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  margin-top: 10px;
+  border: 1px solid var(--gray-light);
+  background-color: var(--white);
+  box-shadow: 0 6px 12px var(--shadow);
+  border-radius: 6px;
+  padding: 15px 0;
+  width: 280px;
+}
+
+.dropdown__menu ul {
+  list-style: none;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.dropdown__menu ul li {
+  line-height: 35px;
+}
+
+.dropdown__menu ul li a {
+  color: var(--black) !important;
+  padding: 0 10px;
+}
+
+.dropdown__menu ul li a:hover {
+  color: var(--blue) !important;
+}
+
+.dropdown__menu--separator {
+  border-top: 1px solid var(--gray-light);
+  margin: 15px 0;
+}
+
+.dropdown__menu--open {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

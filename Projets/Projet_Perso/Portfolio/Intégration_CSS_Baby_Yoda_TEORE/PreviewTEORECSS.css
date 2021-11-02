@@ -1,0 +1,39 @@
+.header-title{ /*Le point vise que ce qu'il y a dans la classe !*/
+    background-color: #a9a9a9;
+    color: white;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.main{
+    text-align: justify;
+    margin-left: 1px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.bluesquare{ /*Ensemble du carré bleu, mais surtout du titre*/
+    width: 25%;
+    background-color: #6495ed;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: Roboto, Verdana, sans-serif;
+    color: white;
+    line-height: 2em;
+    font-size: large;
+}
+
+#p1{ font-family: Roboto, Times New Roman, sans-serif; /*Paragraphe du carré bleu*/
+}
+
+.greenfooter{
+    background-color: #9acd32;
+    color: #008000;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 10px;
+}

@@ -1,0 +1,110 @@
+/* feuille de style pour l'exemple de formulaire */
+:root {
+    --white : #ffffff;
+    --black : #000000;
+    --green : #a9c0a2;
+    --grenDark : #5a884e;
+    --grey : #999999;
+    --purp : #880088;
+}
+
+body{
+    margin: 20px 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;
+    background-color:var(--grenDark);
+    margin: auto;
+}
+footer {
+    width: 100%;
+    margin: auto;
+    background-color:var(--grenDark);
+    color: var(--green);
+    padding-top: 2px;
+    padding-bottom: 25px;
+}
+/* entête (header) */
+header nav {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+header h1 {
+    color: var(--green);
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+header nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    text-transform: capitalize;
+}
+header nav ul a{
+    text-decoration: none;
+    color: var(--green);
+}
+header img {
+    width: 3%;
+    margin: auto;
+    position: absolute;
+    left : 20px;
+    top: 30px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+main img {
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+:required {
+    border-color: #88a;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -o-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -ms-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+.labelRed {
+    background-color: rgba(145, 78, 78, 0.397);
+}
+.labelgreen {
+    background-color: rgba(146, 180, 142, 0.397);
+}
+.retouraccueil {
+    width: 150px;
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--greenDark);
+    position: relative;
+}
+header .retouraccueil a {
+    color: var(--green);
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 90%;
+}

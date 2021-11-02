@@ -1,0 +1,173 @@
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+
+body {
+    color: var(--gray-dark);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/**
+ * Text color
+ */
+.green {
+    color: var(--green);
+}
+
+.green-dark {
+    color: var(--green-dark);
+}
+
+/**
+ * Background color
+ */
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-green-light {
+    background-color: var(--green-light);
+}
+
+/**
+ * Alert
+ */
+.alert {
+    display: none;
+}
+
+/**
+ * Button
+ */
+.btn {
+    text-decoration: none;
+    color: var(--white);
+    background: var(--green) url('../images/button_wave.svg') no-repeat;
+    padding: 14px 24px;
+    font-weight: 300;
+    border-radius: 6px;
+    transition: background-color 500ms;
+}
+
+.btn:hover {
+    background-color: var(--green-dark);
+    transition: background-color 500ms;
+}
+
+/**
+ * Navigation
+ */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav img {
+    width: 12%;
+}
+
+nav ul {
+    display: none;
+}
+
+nav .menu {
+    color: var(--gray-dark);
+    background-color: var(--gray-light);
+    border-radius: 8px;
+    padding: 10px 10px 5px 10px;
+}
+
+nav .menu svg {
+    width: 24px;
+}
+
+/**
+ * Header
+ */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+header p,
+main section p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: var(--blue-dark);
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+header img,
+main section img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/**
+ * Main
+ */
+main section {
+    margin-top: 50px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+main section h2 {
+    color: var(--green);
+    font-size: 2.8em;
+}
+
+/**
+ * How it works.
+ */
+.works h3 {
+    font-size: 1.2em;
+}
+
+.works img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/**
+ * Footer
+ */
+footer {
+    padding: 20px 0;
+    color: var(--green-dark);
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+footer ul a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: var(--blue-dark);
+}

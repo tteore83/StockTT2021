@@ -1,0 +1,200 @@
+@import "./color.scss";
+
+@media (max-width: 896px){
+.nav-web, .section1-web, .section2-web,
+.section3-web, .section4-web,
+.section5-web, .section6-web,
+.section7-web, .footer-web{
+    display: none;
+}
+
+body, html{
+    margin: 0;
+    font-family: 'Georama', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-mobile{
+    margin: 20px;
+}
+
+.section1-mobile{
+    background-image: linear-gradient(to bottom, $pink, $darkpink, $orange, $darkorange, $yellow);
+
+
+    .bubblespurple{
+        width: 200px;
+        position: absolute;
+        bottom: 635px;
+        left: 180px;
+    }
+
+
+    .title{
+        width: 90%;
+        margin: 20px;
+        margin-top: 180px;
+    }
+
+    h1{
+        font-family: 'Poiret One';
+        color: $white;
+        font-size: 45px;
+        margin: 20px;
+        padding-bottom: 330px;
+    }
+
+    .watch{
+        position: absolute;
+        width: 500px;
+        top: 500px;
+    }
+
+}
+
+.section15-mobile{
+    .bubblesorange{
+        display: flex;
+        margin: auto;
+        width: 150px;
+        margin-top: 120px;
+    }
+
+    .woman-watch{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        margin-top: -110px;
+    }
+}
+
+.section2-mobile{
+    p{
+        color: $blue;
+        display: block;
+        margin: 100px 20px;
+        font-size: 30px;
+    } 
+        span{
+            color: $orange;
+        }
+
+    img{
+        width: 300px;
+        display: flex;
+        margin: auto;
+    }
+
+    button{
+        width: 300px;
+        display: flex;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        background-color: $darkgray;
+        border: none;
+
+        .txtbtn{
+            color: $white;
+            display: flex;
+            margin: auto;
+            font-size: 30px;
+            text-decoration: none;
+        }
+    }
+}
+
+.section3-mobile{
+    .bubblesorange{
+        width: 150px;
+        display: flex;
+        margin: auto;
+    }
+
+    .man-watch{
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+
+    .watch-back{
+        display: flex;
+        width: 500px;
+        margin-top: -110px;
+    }
+}
+
+.section4-mobile{
+    background-color: $lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h1{
+        font-weight: lighter;
+        color: $darkgray;
+        text-align: center;
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    input{
+        width: 300px;
+        display: flex;
+        margin: auto;
+        padding: 10px;
+        background-color: $white;
+        border: none;
+    }
+
+    button{
+        width: 300px;
+        display: flex;
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: $orange;
+        border: none;
+
+        .txtbtn{
+            color: $white;
+            display: flex;
+            margin: auto;
+            font-size: 25px;
+            text-decoration: none;
+            border: none;
+        }
+    }
+}
+
+.footer-mobile{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    a{
+        display: flex;
+        margin: 50px;
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+        color: $darkgray;
+    }
+
+    button{
+        width: 300px;
+        display: flex;
+        margin: auto;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: $orange;
+        border: none;
+
+        .txtbtn{
+            color: $white;
+            display: flex;
+            margin: auto;
+            font-size: 30px;
+            text-decoration: none;
+            border: none;
+        }
+    }
+}
+}

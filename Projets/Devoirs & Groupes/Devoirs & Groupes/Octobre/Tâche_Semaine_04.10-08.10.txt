@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------------------------------------
+
+Lundi 4/10 : Présentation site (Éliane)
+Mardi 5/10* : PHP les variables, conditions, tableaux et boucles (Émilie D)
+Mercredi 6/10 : Présentation site (Brahim)
+Jeudi 7/10 : PHP les superglobales (Fiona) Deux en particulier...
+Vendredi 8/10* : Présentation site (Martine)
+
+--------------------------------------------------------------------------------------------------------------
+
+*Mardi 5/10 : Fin & Présentation du projet Wordpress !
+*Vendredi 8/10 : Visite d'un indépendant le matin + fini à 15h30 !

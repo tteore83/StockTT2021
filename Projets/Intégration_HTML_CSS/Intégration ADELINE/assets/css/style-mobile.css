@@ -1,0 +1,173 @@
+@media (max-width: 896px) {
+  .nav-web, .section1-web, .section2-web,
+.section3-web, .section4-web,
+.section5-web, .section6-web,
+.section7-web, .footer-web {
+    display: none;
+  }
+
+  body, html {
+    margin: 0;
+    font-family: "Georama", sans-serif;
+    overflow-x: hidden;
+  }
+
+  .nav-mobile {
+    margin: 20px;
+  }
+
+  .section1-mobile {
+    background-image: linear-gradient(to bottom, #f3767e, #ff9069, #ffb253, #ffd849, #dfff5b);
+  }
+  .section1-mobile .bubblespurple {
+    width: 200px;
+    position: absolute;
+    bottom: 635px;
+    left: 180px;
+  }
+  .section1-mobile .title {
+    width: 90%;
+    margin: 20px;
+    margin-top: 180px;
+  }
+  .section1-mobile h1 {
+    font-family: "Poiret One";
+    color: #ffffff;
+    font-size: 45px;
+    margin: 20px;
+    padding-bottom: 330px;
+  }
+  .section1-mobile .watch {
+    position: absolute;
+    width: 500px;
+    top: 500px;
+  }
+
+  .section15-mobile .bubblesorange {
+    display: flex;
+    margin: auto;
+    width: 150px;
+    margin-top: 120px;
+  }
+  .section15-mobile .woman-watch {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: -110px;
+  }
+
+  .section2-mobile p {
+    color: #005570;
+    display: block;
+    margin: 100px 20px;
+    font-size: 30px;
+  }
+  .section2-mobile span {
+    color: #ffb253;
+  }
+  .section2-mobile img {
+    width: 300px;
+    display: flex;
+    margin: auto;
+  }
+  .section2-mobile button {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #464646;
+    border: none;
+  }
+  .section2-mobile button .txtbtn {
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .section3-mobile .bubblesorange {
+    width: 150px;
+    display: flex;
+    margin: auto;
+  }
+  .section3-mobile .man-watch {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .section3-mobile .watch-back {
+    display: flex;
+    width: 500px;
+    margin-top: -110px;
+  }
+
+  .section4-mobile {
+    background-color: #E8E8E8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .section4-mobile h1 {
+    font-weight: lighter;
+    color: #464646;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+  }
+  .section4-mobile input {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+  }
+  .section4-mobile button {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ffb253;
+    border: none;
+  }
+  .section4-mobile button .txtbtn {
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+  }
+
+  .footer-mobile {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .footer-mobile a {
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #464646;
+  }
+  .footer-mobile button {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #ffb253;
+    border: none;
+  }
+  .footer-mobile button .txtbtn {
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+  }
+}/*# sourceMappingURL=style-mobile.css.map */

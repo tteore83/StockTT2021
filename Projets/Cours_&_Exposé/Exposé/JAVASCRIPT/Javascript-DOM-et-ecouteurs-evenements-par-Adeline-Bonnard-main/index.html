@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="assets/css/style-mobile.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Manipulation DOM | Ecouteurs d'évènements</title>
+
+</head>
+
+
+<body class="cursor">
+    
+<main>
+
+    <!--My wonderful slides-->
+
+    <div id="controls">
+        <a href="#s1">1</a>
+        <a href="#s2">2</a>
+        <a href="#s3">3</a>
+        <a href="#s4">4</a>
+       
+    </div>
+
+   
+    <div id="slider">
+
+        <div class="slide" id="s1"><h1>Qu'est-ce que le DOM ?</h1><img src="assets/images/wind.svg" class="doodle" id="wind"><img src="assets/images/dom.svg" id="dom"><p> > Quand un document HTML est chargé dans le navigateur, il devient un objet manipulable
+            > C'est aussi un noeud racine (root node) qui lui-même contient d'autres éléments manipulables
+            (les balises h, p, a, Etc)
+            > head et body sont également des noeuds
+            > On peut ainsi changer une syntaxe, un texte, une valeur, une image...bref, tout ! CSS compris
+        </P></div>
+
+        <div class="slide" id="s2"><h1>Sélectionner & modifier des éléments</h1><img src="assets/images/bottle.svg" class="doodle" id="bottle"><P>◄ ◄  Voici quelques exemples
+            <a href ="exemple-1.html" target="_blank">...Et une preuve plus concrète par ici ◄</a>
+        </P>
+                      
+            <div class="screen">
+                <div class="top">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              
+                <div class="content">
+                  <h3>//    document.getElementById('h1').innerHTML = "Je suis un nouveau Titre";
+
+                      //    var element = document.querySelector("#nomId");
+
+                     //    var elements = document.querySelectorAll("img");
+
+                     <a href="https://www.w3schools.com/jsref/dom_obj_document.asp" target="_blank"> > Liste des Méthodes</a>
+                    </h3>
+                  </div>
+              </div>
+
+        </div>
+
+        <div class="slide" id="s3"><h1>Les écouteurs d'événements | Event Listener</h1><img src="assets/images/balloon.svg" class="doodle" id="balloon"><P>Ils permettent d'agir avec les actions des utilisateurs
+            (click sur un bouton par exemple)
+
+            On utilise // addEventListener
+
+            Il existe : 
+            - Les événements souris (MouseEvent : mousedown, mouseup, click, dblclick, mousemove, etc) 
+            - Les événements tactiles (ToucheEvent : touchstart, touchmove, ...) --> uniquement pour smartphones et tablettes
+            - Les événements clavier (KeyboardEvent : keydown, keypress, ...  )
+            - Les événements de page (focus, blur, change, submit, ...)
+            - Les événements fenêtre (scroll, resize, load, etc)
+
+            A noter qu'il est possible de prévoir 2 événements selon la détection du support (réaction tactile ou souris)
+            ou via des libraries : 
+            <a href="https://github.com/ftlabs/fastclick" target="_blank"> > FastClick</a>
+            <a href="https://github.com/rafgraph/detect-it" arget="_blank"> > Detect-it</a>
+            <a href="https://modernizr.com/docs" arget="_blank"> > Modernizr</a>
+        </P>
+        <a id="ressources" href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank"> Des ressources d'événements 
+            > par ici</a>
+    </div>
+
+        <div class="slide" id="s4"><h1>Bloquer des événements</h1><img src="assets/images/stop.svg" class="doodle" id="stop"><P>...Certaines actions peuvent être stoppées. Ceci afin d'empêcher des clicks accidentels par exemple
+            // preventDefautl()
+            // stopPropagation()
+            sont des possibilités.
+
+            <a href="./exemple-2.html" target="_blank">Passons désormais à l'action ! 
+                > Une démo vaut mille mots</a> 
+        </P></div>
+
+        
+
+    </div>
+    
+    
+
+
+
+</main>
+
+</body>
+
+
+
+</html>

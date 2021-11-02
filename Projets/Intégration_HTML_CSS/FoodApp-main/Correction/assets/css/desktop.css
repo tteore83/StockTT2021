@@ -1,0 +1,91 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+
+    /**
+     * Alert
+     */
+    .alert {
+        display: block;
+        background: var(--green) url('../images/banner_wave.svg') no-repeat;
+        color: var(--white);
+        text-align: center;
+    }
+
+    .alert p {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    /**
+     * Navigation
+     */
+    nav .menu {
+        display: none;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: var(--gray-dark);
+    }
+
+    nav ul a:hover {
+        color: var(--green-dark);
+    }
+
+    /**
+     * Header
+     */
+    header,
+    main section>div {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        text-align: left;
+        padding: 100px 0;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    header img {
+        margin-top: 0;
+    }
+
+    main section h2 {
+        font-size: 3.2em;
+    }
+
+    /**
+     * How it works.
+     */
+    .works>div {
+        text-align: center;
+    }
+
+    .works h3 {
+        margin: 0;
+    }
+
+    .works img {
+        margin-top: 0;
+    }
+
+    /**
+     * Footer
+     */
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

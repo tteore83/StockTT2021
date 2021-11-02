@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------------------------------------
+
+Lundi 13/09 : Exposé : Framework CSS - Bootstrap (Émilie N'guyen)
+Mardi 14/09 : Présentation de site internet (Mathieu)
+**Mercredi 15/09 : Exposé : Framework CSS - Bootstrap - Responsive (Fiona)
+Jeudi 16/09 : Présentation de site internt (Émilie D)
+**Vendredi 17/09 : Exposé : Héberger son site web (Moi : Tristan)
+1/ Connexion SFTP / SSH
+2/ Espace web
+- Public : https://tristant.promo-91.codeur.online
+- Privé : https://tristant.private.promo-91.codeur.online
+Identifiant : acsprivate
+Mot de passe : acs@acs
+Rem : accessible par mot de passe en dehors du centre de formation
+
+--------------------------------------------------------------------------------------------------------------
+
+**Mercredi 15/09 à 18h00, rdv à la maison paroissiale avec Madame Lecourieux et
+Monsieur Pelletier
+
+**Vendredi 17/09 à 10h15, rdv au CHU avec Monsieur NAAL. Report de l'exposé l'après-midi à 13h30.
+

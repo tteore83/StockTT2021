@@ -1,0 +1,1454 @@
+@media (max-width: 1199px) {
+/*On cache la version header du PC*/
+    .logo-main, .header-computer, .zap, .imgstrange, .imgshehulk,
+    .imgspidergwen, .imgsupergirl, .imgdaredevil, .imgharleyquinn, .bgmonparcours-web, .friseweb, .bgcompetencesweb,
+    .bgprojetsweb, .casetopweb, .casetopbottom, .bazureamweb, .backgroundapropos,
+    .baiguillesweb, .brockweb, .bascmusicweb, .formulairecontactweb, .backgroundflashs, .présentation, 
+    .bgmesprojets-web, .rondes, .présentationprojets{
+        display: none;
+    }
+
+@font-face {
+      font-family: "Comic Book";
+      src: url("../../ComicBook.otf") format("truetype");
+}
+
+@font-face {
+      font-family: "Marvel";
+      src: url("../../MarvelRegular-Dj83.ttf") format("truetype");
+}
+    html, body {
+      overflow-x: hidden;
+    } 
+
+    /*On définit la police de base de l'ensemble de la page et sans de marges*/
+    body{
+        font-family: 'Comic Book';
+        margin: 0;
+        overflow: hidden;
+    }
+
+    
+    /*Header qui accueille les icônes, avec un fond noir et un espace entre les images*/
+    header{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        font-style: none;
+          a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Marvel';
+            font-size: 25px;
+            transition: color 1s;
+            list-style: none;
+          }
+
+          .header a:hover{
+            color : red;
+            transition: color 1s;
+        }
+    }
+
+    /*On définit la taille et les marges des deux images cliquables : menu & logo*/
+
+    .topnav{
+      width: 100vw;
+    }
+
+    .logo-main-mobile, .menu-burger-mobile{
+        width: 50px;
+        margin: 10px;
+    }
+
+    .logo-main-mobile{
+      padding-right: 130px;
+    }
+
+    .menu-burger-mobile{
+      float: right;
+    }
+
+    /*On cache ici le background "Portfolio" de la version PC sur la version mobile*/
+    .first-bg-computer{
+        display: none;
+    }
+
+    /*On définit la div de l'image pour retirer la marge du bas, étant donné que cela laissé un espace blanc*/
+    .first-bg-mobile{
+        margin: 0;
+        margin-bottom: -4px;
+    }
+
+    /*On met en place le background "Portfolio ; sans marge*/
+    .imgheader{
+        width: 100%;
+    }
+
+    .headtitle{
+        font-size: 100px;
+        font-family: 'Marvel';
+        position: absolute;
+        color: white;
+        margin-top: -300px;
+        margin-left: 50px;
+        text-shadow: 0.1em 0.1em 0.05em #000000;
+    }
+
+    //SECTION : À PROPOS --------------------------------------------------------------
+
+    /*Mettre une couleur graduelle au fond de l'entièreté de la div "à propos"*/
+    .À-propos{
+        background: linear-gradient(#000000, #FC0100);
+        p{
+            font-family: 'Comic Book';
+        }
+        margin-bottom: -4px;
+    }
+
+    /*Div avec le fond noir*/
+    .imgapropos{
+        background: black;
+    }
+
+    /*Image du "À propos"*/
+    .aproposimg{
+        width: 150px;
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    /*Div pour le nom & prénom*/
+    .name{
+        font-family: 'Marvel';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /*Nom de famille*/
+    .surname{
+        color: red;
+    }
+
+    /*Prénom*/
+    .familyname{
+        color: white;
+    }
+
+    /*Image ovale du Superior Spiderman*/
+    .supspider{
+        display: flex;
+        width: 150px;
+        margin: auto;
+        margin-bottom: 150px;   
+    }
+
+    //PREMIERE BULLE : IRON-MAN --------------------------------------------------------------
+
+    .bubble{
+        position: absolute;
+        width: 500px;
+        width: 500px;
+        margin-top: -165px;
+        margin-left: -135px;
+    }
+        .logo {
+            position: relative;
+            width: 200px ;
+            height: 50%;
+            margin: 0 auto;
+          }
+          
+          .animated {
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+          }
+          
+          .animated:hover {
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+          }
+          
+          @-webkit-keyframes tada {
+            0% {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+            }
+          
+            10%, 20% {
+              -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+              transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+            }
+          
+            30%, 50%, 70%, 90% {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+              transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+            }
+          
+            40%, 60%, 80% {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+              transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+            }
+          
+            100% {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+            }
+          }
+          
+          @keyframes tada {
+            0% {
+              -webkit-transform: scale3d(1, 1, 1);
+              -ms-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+            }
+          
+            10%, 20% {
+              -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+              -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+              transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+            }
+          
+            30%, 50%, 70%, 90% {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+              -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+              transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+            }
+          
+            40%, 60%, 80% {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+              -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+              transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+            }
+          
+            100% {
+              -webkit-transform: scale3d(1, 1, 1);
+              -ms-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+            }
+          }
+          
+          .tada {
+            -webkit-animation-name: tada;
+            animation-name: tada;
+          }
+    
+
+    .bubbleironman{
+        position: relative;
+        background: url(../img/bubble4.png);
+    }
+
+    .textironman{
+        transform: rotate(-7deg);
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        margin-left: 15px;
+        margin-top: -100px;
+        margin-right: 25px;
+    }
+
+    .ironmanfly{
+        margin-top: 50px;
+    }
+
+    //SECONDE BULLE : SUPERIOR SPIDERMAN --------------------------------------------------------------
+
+    .bubble1{
+        position: absolute;
+        width: 150%;
+        width: 500px;
+        margin-top: -15px;
+        margin-left: -150px;
+    }
+
+    .logo {
+        position: relative;
+        width: 200px ;
+        height: 50%;
+        margin: 0 auto;
+      }
+      
+      .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      
+      .animated:hover {
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+      
+      @-webkit-keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      @keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      .tada {
+        -webkit-animation-name: tada;
+        animation-name: tada;
+      }
+
+    .bubblesupspider{
+        margin-top: 200px;
+        position: relative;
+        background: url(../img/bubble4.png);
+    }
+
+    .textsupspider{
+        transform: rotate(-7deg);
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 70px;
+        margin-right: 25px;
+    }
+
+    .supspiderground{
+        margin-top: 50px;
+    }
+
+    //TROISIEME BULLE : DAREDEVIL --------------------------------------------------------------
+
+    .bubble2{
+        position: absolute;
+        width: 150%;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: -150px;
+    }
+
+    .logo {
+        position: relative;
+        width: 200px ;
+        height: 50%;
+        margin: 0 auto;
+      }
+      
+      .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      
+      .animated:hover {
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+      
+      @-webkit-keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      @keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      .tada {
+        -webkit-animation-name: tada;
+        animation-name: tada;
+      }
+
+    .bubbledaredevil{
+        margin-top: 200px;
+        position: relative;
+        background: url(../img/bubble4.png);
+    }
+
+    .textdaredevil{
+        transform: rotate(-7deg);
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    .daredevildark{
+        margin-top: 80px;
+    }
+
+    //QUATRIEME BULLE : GODSPEED --------------------------------------------------------------
+
+    .bubble3{
+        position: absolute;
+        width: 150%;
+        width: 500px;
+        margin-top: -165px;
+        margin-left: -135px;
+    }
+
+    .logo {
+        position: relative;
+        width: 200px ;
+        height: 50%;
+        margin: 0 auto;
+      }
+      
+      .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      
+      .animated:hover {
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+      
+      @-webkit-keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      @keyframes tada {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      
+        10%, 20% {
+          -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        30%, 50%, 70%, 90% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        40%, 60%, 80% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        }
+      
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          -ms-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+      .tada {
+        -webkit-animation-name: tada;
+        animation-name: tada;
+      }
+
+    .bubblegodspeed{
+        margin-top: 200px;
+        position: relative;
+        background: url(../img/bubble4.png);
+    }
+
+    .textgodspeed{
+        transform: rotate(-7deg);
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        margin-left: 15px;
+        margin-top: -90px;
+        margin-right: 25px;
+    }
+
+    .godspeedflash{
+        margin-top: 50px;
+    }
+
+    //SECTION : MON PARCOURS --------------------------------------------------------------
+
+    .imgparcours{
+        background: black;
+    }
+
+    .monparcoursimg{
+        width: 200px;
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    .bgparcours-mobile{
+      margin-bottom: -4px;
+    }
+
+    //SECTION : MES COMPETENCES --------------------------------------------------------------
+
+    .imgmescompetences{
+        background: black;
+        padding-bottom: -10px;
+    }
+
+    .mescompetencesimg{
+        width: 250px;
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    /*Icônes mes compétences*/
+
+.flexskills, .flexskills2{
+  display: block;
+  background: rgba(202, 16, 16);
+}
+
+.flip-containerXD, .flip-containerHTML, .flip-containerCSS,
+.flip-containerJS, .flip-containerPS, .flip-containerSASS,
+.flip-containerWP{
+  margin: auto;
+}
+    /* Premier carré : ADOBE XD */
+
+.flip-containerXD {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+.flip-containerXD:hover .flipperXD, .flip-containerXD.hover .flipperXD {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerXD, .frontXD, .backXD {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperXD {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontXD, .backXD {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontXD img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoXD {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(../img/flip/logo-XD.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backXD {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+    border-radius: 50px;
+}
+
+.backXD p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Deuxième case : SASS */
+
+.flip-containerSASS {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerSASS:hover .flipperSASS, .flip-containerSASS.hover .flipperSASS {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerSASS, .frontSASS, .backSASS {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperSASS {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontSASS, .backSASS {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontSASS img{
+width: 300px;
+height: 300px;
+border-radius: 50px;
+}
+
+.back-logoSASS {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-SASS.png);
+background-size: 100px;
+top: 10%;
+left: 35%;
+background-repeat: no-repeat;
+}
+
+.backSASS {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backSASS p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+}
+
+/* Troisième case : HTML */
+
+.flip-containerHTML {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerHTML:hover .flipperHTML, .flip-containerHTML.hover .flipperHTML {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerHTML, .frontHTML, .backHTML {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperHTML {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontHTML, .backHTML {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontHTML img{
+width: 300px;
+height: 300px;
+}
+
+.back-logoHTML {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-html.png);
+background-size: 100px;
+top: 10%;
+left: 35%;
+background-repeat: no-repeat;
+}
+
+.backHTML {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backHTML p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+}
+
+/* Quatrième case : CSS */
+
+.flip-containerCSS {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerCSS:hover .flipperCSS, .flip-containerCSS.hover .flipperCSS {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerCSS, .frontCSS, .backCSS {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperCSS {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontCSS, .backCSS {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontCSS img{
+width: 220px;
+height: 300px;
+margin-left: 40px;
+}
+
+.back-logoCSS {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-css.png);
+background-size: 80px;
+top: 10%;
+left: 37%;
+background-repeat: no-repeat;
+}
+
+.backCSS {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backCSS p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+}
+
+/* Cinquième case : JS */
+
+.flip-containerJS {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerJS:hover .flipperJS, .flip-containerJS.hover .flipperJS {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerJS, .frontJS, .backJS {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperJS {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontJS, .backJS {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontJS img{
+width: 300px;
+height: 300px;
+}
+
+.back-logoJS {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-js.png);
+background-size: 100px;
+top: 10%;
+left: 35%;
+background-repeat: no-repeat;
+}
+
+.backJS {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backJS p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+}
+
+/* Sixième case : PS */
+
+.flip-containerPS {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerPS:hover .flipperPS, .flip-containerPS.hover .flipperPS {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerPS, .frontPS, .backPS {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperPS {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontPS, .backPS {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontPS img{
+width: 300px;
+height: 300px;
+}
+
+.back-logoPS {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-ps.png);
+background-size: 100px;
+top: 10%;
+left: 35%;
+background-repeat: no-repeat;
+}
+
+.backPS {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backPS p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+}
+
+/* Septième case : WP */
+
+.flip-containerWP {
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+}
+
+.flip-containerWP:hover .flipperWP, .flip-containerWP.hover .flipperWP {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+}
+
+.flip-containerWP, .frontWP, .backWP {
+  width: 300px;
+  height: 300px;
+}
+
+.flipperWP {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+-o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.frontWP, .backWP {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontWP img{
+width: 300px;
+height: 300px;
+}
+
+.back-logoWP {
+position: absolute;
+width: 160px;
+height: 117px;
+background-image: url(../img/flip/logo-WP.png);
+background-size: 100px;
+top: 10%;
+left: 35%;
+background-repeat: no-repeat;
+}
+
+.backWP {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: white;
+  border-radius: 50px;
+}
+
+.backWP a {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Comic Book";
+  line-height: 2em;
+  z-index: 7;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+    //SECTION : MES PROJETS --------------------------------------------------------------
+
+    .Mes-projets{
+        background: linear-gradient(#000000, #FC0100);
+        p{
+            font-family: 'Comic Book';
+        }
+    }
+
+    .imgmesprojets{
+        background: black;
+        padding-bottom: -10px;
+    }
+
+    .mesprojetsimg{
+        width: 200px;
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    .bubbleproject{
+        position: relative;
+        background: url(../img/mobile/bubbleproject.png);
+    }
+
+    .textazureem{
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        margin-left: 55px;
+        margin-top: -320px;
+        margin-right: 35px;
+    }
+
+    .imgazureem{
+        margin-top: 30px;
+    }
+
+    .textaiguille{
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        margin-left: 83px;
+        margin-top: -299px;
+        margin-right: 54px;
+    }
+
+    .imgaiguille{
+        margin-top: 40px;
+    }
+
+    .textacsmusic{
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        margin-left: 58px;
+        margin-top: -310px;
+        margin-right: 42px;
+    }
+
+    .imgacsmusic{
+        margin-top: 20px;
+    }
+
+    .textrock{
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        margin-left: 70px;
+        margin-top: -313px;
+        margin-right: 41px;
+    }
+
+    .imgrock{
+        margin-top: 50px;
+    }
+
+    //SECTION : ME CONTACTER --------------------------------------------------------------
+
+    .Contact{
+        background: linear-gradient(#FC0100, #000000);
+        p{
+            font-family: 'Comic Book';
+        }
+    }
+
+    .imgmecontacter{
+        background: black;
+        padding-bottom: -10px;
+    }
+
+    .mecontacterimg{
+        width: 200px;
+        display: block;
+        margin: auto;
+        align-items: center;
+        margin-top: -5px;
+    }
+
+    .form-top-computer{
+        display: none;
+    }
+
+    .inputs input{
+        width: 350px;
+        display: block;
+        margin: auto;
+        border-radius: 42px;
+        border-color: black;
+        border-style: solid;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Comic Book';
+        border-width: 5px;
+    }
+    
+    .form-title{
+        color: white;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-bottom: -40px;
+    }
+
+    .form-title-msg{
+        color: white;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .form-bottom textarea{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 100px;
+        border-radius: 42px;
+        display: block;
+        margin: auto;
+        width: 350px;
+        font-family: 'Comic Book';
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    .btn{
+        width: 150px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 42px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Comic Book';
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    .btn:hover {
+        transform: scale(1.15);
+    }
+    
+
+    .column-right p{
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .logocontact{
+        padding-top: 30px;
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .logocontact2{
+        padding-top: 30px;
+        width: 100px;
+        display: inline-block;
+        margin-left: 70px;
+    }
+
+    .logogoogleweb, .logophoneweb,
+    .logogithubweb, .logolinkedinweb,
+    .logodlweb, .traitblanc{
+      display: none;
+    }
+
+    footer{
+        background-color: black;
+        display: block;
+        color: white;
+        font-family: 'Comic Book';
+        padding: 100px;
+        margin-top: -30px;
+
+        p{
+            font-size: 30px;
+            text-align: center;
+
+            span{
+                display: block;
+            }
+        }
+    }
+  }

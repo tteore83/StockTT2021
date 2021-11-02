@@ -1,0 +1,18 @@
+Mardi 21 septembre - nuMog de 16h à 17h (9 Pl. du Maréchal Leclerc, 89000 Auxerre)
+Mercredi 29 septembre - Visite d'un indépendant web designer
+
+--------------------------------------------------------------------------------------------------------------
+
+Lundi 13/09 : Exposé : Framework CSS - Bootstrap (Émilie N'guyen)
+Mardi 14/09 : Présentation de site internet (Mathieu)
+Mercredi 15/09 : Exposé : Framework CSS - Bootstrap - Responsive (Fiona)
+Jeudi 16/09 : Présentation de site internt (Émilie D)
+Vendredi 17/09 : Exposé : Héberger son site web (Moi : Tristan)
+1/ Connexion SFTP / SSH
+2/ Espace web
+- Public : https://tristant.promo-91.codeur.online
+- Privé : https://tristant.private.promo-91.codeur.online
+Identifiant : acsprivate
+Mot de passe : acs@acs
+Rem : accessible par mot de passe en dehors du centre de formation
+

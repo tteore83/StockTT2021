@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/logo.png" alt="Logo">
+        <h1>s'inscrire</h1>
+        <div class="retouraccueil">
+            <a href="index.html">Accueil</a>
+        </div>
+    </header> 
+    
+    <form method="post" action="" id="id-form">
+        <fieldset form="id-form">
+            <legend>Identification</legend>
+        <p>
+            <label for="nom" class="labelRed">Entrez votre nom</label>
+            <input type="text" name="nom" id="nom" required >
+        </p>
+        <p>
+            <label for="prenom" class="labelRed">Entrez votre prénom</label>
+            <input type="text" name="prenom" id="prenom" required >
+        </p>
+        <p>
+            <label for="mobile" class="labelRed">Entrez votre N° de mobile</label>
+            <input type="tel" name="mobile" id="mobile" required placeholder="12-34-56-78-90"> 
+        </p>
+        <p>
+            <label for="identifiant" class="labelRed">Entrez votre email</label>
+            <input type="email" name="identifiant2" id="identifiant2" required >
+        </p>
+        <p>
+            <label for="identifiant2" class="labelRed">confirmer votre email</label>
+            <input type="email" name="identifiant2" id="identifiant2" required placeholder="martin.dupont@gmail.com">
+        </p>
+        <p>
+            <label for="PassW" class="labelRed">Entrez votre mot de passe</label>
+            <input type="password" name="PassW" id="PassW">
+        </p>
+        </fieldset>
+        <fieldset form="id-form">
+            <legend>Adresse</legend>
+        <p>
+            <label for="adresse" class="labelgreen">N° et voie</label>
+            <input type="text" name="adresse" id="adresse" pattern="[A-Z]{3}[0-9]{4}">
+        </p>
+        <p>
+            <label for="codepostal">code postal</label>
+            <input type="number" name="codepostal" id="codepostal">
+        </p>
+        <p>
+            <label for="ville">Ville</label>
+            <input type="text" name="ville" id="ville">
+        </p>
+        </fieldset>
+        <input type="reset" value="Effacer" >
+        <input type="submit" value="S'inscrire'">
+    </form>
+  
+    <footer>
+        <p>Tous droits réservés &copy; <span class="bold">ACS Auxerre 2021</span></p>
+    </footer>   
+    
+</body>
+</html>

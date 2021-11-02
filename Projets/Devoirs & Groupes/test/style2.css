@@ -1,0 +1,610 @@
+.flip-containerXD, .flip-containerHTML, .flip-containerCSS,
+.flip-containerJS, .flip-containerPS, .flip-containerSASS,
+.flip-containerWP{
+  display: inline-block;
+}
+
+/* Premier carré : ADOBE XD */
+
+.flip-containerXD {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+  
+      border: 1px solid #ccc;
+}
+  
+.flip-containerXD:hover .flipperXD, .flip-containerXD.hover .flipperXD {
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+  
+.flip-containerXD, .frontXD, .backXD {
+      width: 300px;
+      height: 300px;
+}
+  
+.flipperXD {
+      -webkit-transition: 0.6s;
+      -webkit-transform-style: preserve-3d;
+  
+      -moz-transition: 0.6s;
+      -moz-transform-style: preserve-3d;
+    
+    -o-transition: 0.6s;
+      -o-transform-style: preserve-3d;
+  
+      transition: 0.6s;
+      transform-style: preserve-3d;
+  
+      position: relative;
+}
+  
+.frontXD, .backXD {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+.frontXD img{
+    width: 300px;
+    height: 300px;
+}
+
+.back-logoXD {
+    position: absolute;
+    width: 160px;
+    height: 117px;
+    background-image: url(./logo-XD.png);
+    background-size: 100px;
+    top: 10%;
+    left: 35%;
+    background-repeat: no-repeat;
+}
+  
+.backXD {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+      background: white;
+}
+  
+.backXD p {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 0 20px;
+      font-family: "Comic Book";
+      line-height: 2em;
+      z-index: 7;
+}
+
+/* Deuxième case : SASS */
+
+.flip-containerSASS {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerSASS:hover .flipperSASS, .flip-containerSASS.hover .flipperSASS {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerSASS, .frontSASS, .backSASS {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperSASS {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontSASS, .backSASS {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontSASS img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoSASS {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-SASS.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backSASS {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backSASS p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Troisième case : HTML */
+
+.flip-containerHTML {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerHTML:hover .flipperHTML, .flip-containerHTML.hover .flipperHTML {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerHTML, .frontHTML, .backHTML {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperHTML {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontHTML, .backHTML {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontHTML img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoHTML {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-html.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backHTML {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backHTML p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Quatrième case : CSS */
+
+.flip-containerCSS {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerCSS:hover .flipperCSS, .flip-containerCSS.hover .flipperCSS {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerCSS, .frontCSS, .backCSS {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperCSS {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontCSS, .backCSS {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontCSS img{
+  width: 220px;
+  height: 300px;
+  margin-left: 40px;
+}
+
+.back-logoCSS {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-css.png);
+  background-size: 80px;
+  top: 10%;
+  left: 37%;
+  background-repeat: no-repeat;
+}
+
+.backCSS {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backCSS p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Cinquième case : JS */
+
+.flip-containerJS {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerJS:hover .flipperJS, .flip-containerJS.hover .flipperJS {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerJS, .frontJS, .backJS {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperJS {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontJS, .backJS {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontJS img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoJS {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-js.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backJS {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backJS p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Sixième case : PS */
+
+.flip-containerPS {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerPS:hover .flipperPS, .flip-containerPS.hover .flipperPS {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerPS, .frontPS, .backPS {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperPS {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontPS, .backPS {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontPS img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoPS {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-ps.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backPS {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backPS p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+}
+
+/* Septième case : WP */
+
+.flip-containerWP {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+    border: 1px solid #ccc;
+}
+
+.flip-containerWP:hover .flipperWP, .flip-containerWP.hover .flipperWP {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+}
+
+.flip-containerWP, .frontWP, .backWP {
+    width: 300px;
+    height: 300px;
+}
+
+.flipperWP {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.frontWP, .backWP {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frontWP img{
+  width: 300px;
+  height: 300px;
+}
+
+.back-logoWP {
+  position: absolute;
+  width: 160px;
+  height: 117px;
+  background-image: url(./logo-WP.png);
+  background-size: 100px;
+  top: 10%;
+  left: 35%;
+  background-repeat: no-repeat;
+}
+
+.backWP {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.backWP a {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Comic Book";
+    line-height: 2em;
+    z-index: 7;
+    text-decoration: none;
+    font-size: 20px;
+}

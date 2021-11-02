@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------------------------------------
+
+Lundi 11/10 : PHP les fonctions (éliane)
+Mardi 12/10 : SQL (martine)
+Mercredi 13/10 : PHP connexion/base de données (Brahim)
+Jeudi 14/10 : Site (Emilie N)
+Vendredi 15/10 : Site (Adel)
+
+--------------------------------------------------------------------------------------------------------------
+
+*Visite d'un indépendant
+
+On continue le portfolio ! On fait des travaux PHP.

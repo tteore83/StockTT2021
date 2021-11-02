@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+    .header-phone, .first-bg-mobile, .bubbleironman, .ironmanfly, 
+    .bubblesupspider, .supspiderground, .bubbledaredevil, .daredevildark,
+    .bubblegodspeed, .godspeedflash, .bgparcours, .frisemobile, .bgcompetences{
+        display: none;
+    }
+
+
+body{
+    font-family: 'Comic Book';
+    margin: 0;
+}
+
+/*Ici la navigation*/
+header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+
+    .header-computer a{ 
+        display: flex;
+        list-style: none;
+        gap: 50px;
+        font-family: 'Marvel';
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    }
+
+    .header-computer ul{
+        display: flex;
+        list-style-type: none;
+        gap: 60px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+
+    img{
+        width: 150px;
+    }
+}
+
+/*Image du header*/
+.first-bg-computer{
+    margin-bottom: -4px;
+}
+
+img.imgheader-computer{
+    width: 100%;
+}
+
+/*Titre du header*/
+
+.headtitle{
+    font-size: 200px;
+    font-family: "Marvel";
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #000000;
+    text-align: center;
+}
+
+//SECTION : À PROPOS --------------------------------------------------------------
+
+/*Image du "à propos"*/
+.aproposimg{
+    display: block;
+    margin: auto;
+}
+
+/*Arrière-plan noir de l'image du "à propos"*/
+.imgapropos{
+    background: black;
+    display: block;
+    margin: 0;
+}
+
+/*Div pour le nom & prénom*/
+.name{
+    font-family: 'Marvel';
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em #000000;
+    margin-top: -1570px;
+}
+
+/*Nom de famille*/
+.surname{
+    color: red;
+}
+
+/*Prénom*/
+.familyname{
+    color: white;
+}
+
+/*Image spider-man coin droite*/
+.supspider{
+    width: 380px;
+}
+
+/*Image zap coin gauche*/
+.zap{
+    width: 300px;
+}
+
+/*On attaque les cases !*/ 
+
+/*Case Iron man*/
+.case_ironman{
+    margin-left: 20px;
+}
+
+/*Case Spiderman*/
+.case_spiderman{
+    padding-right: 15px;
+}
+}

@@ -1,0 +1,93 @@
+@media (min-width: 1200px) {
+
+@import "color.scss";
+
+.nav-mobile, .section-mobile{
+    display: none;
+}
+
+html, body{
+    font-family: 'Roboto';
+    margin: 20px;
+    overflow: hidden;
+}
+
+.btntitle{
+    color: $pink;
+}
+
+.nav-web{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+}
+
+.section-web{
+    h1{
+        font-size: 42px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .sauterligne{
+        display: block;
+    }
+}
+
+.try{
+    background-color: $darkblue;
+    border-style: none;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: $white;
+    font-weight: bold;
+}
+
+input, button{
+    display: inline-block;
+}
+
+input{
+    width: 20%;
+    border: none;
+    border-bottom: solid 1px $gray;
+    padding-bottom: 10px;
+}
+
+.early{
+    background-color: $darkblue;
+    border-style: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: $white;
+    font-weight: bold;
+}
+
+.bg-web{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    width: 100%;
+    z-index: -1;
+}
+}

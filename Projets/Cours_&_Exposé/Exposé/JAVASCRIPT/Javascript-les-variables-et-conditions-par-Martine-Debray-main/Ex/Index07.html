@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La concaténation en JavaScript</title>
+</head>
+<body>
+    <h1>La conditions en JavaScript</h1>
+    <h2>les opérateurs de comparaison</h2>
+    <ul>
+        <li>== : est égal à (en valeur)</li>
+        <li>!= : est différent de (en valeur)</li>
+        <li>=== : est égal à (en valeur et en type)</li>
+        <li>!== : est différent de (en valeur ou en type)</li>
+    </ul>
+    <img src="assets/imgs/opérateurs.PNG" alt="opérateurs de comparaison">
+    <script>
+        var x = 7, y = 14
+
+        var vrai = x < y;
+        var faux = 14 <= 7;
+        var egalval = 4 == "4";
+        var egalvaltype = 4 === "4";
+
+        var difval = 4 != "4";
+        var difvaltype = 4 !== "4";
+
+        alert("vrai stocke : " + vrai +
+        "\nfaux stocke : " + faux +
+        "\negalval stocke : " + egalval +
+        "\negalvaltype stocke : " + egalvaltype +
+        "\ndifval stocke : " + difval +
+        "\ndifvaltype stocke : " + difvaltype);
+
+    </script>
+</body>
+</html>

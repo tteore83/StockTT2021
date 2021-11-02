@@ -1,0 +1,26 @@
+.carre_vert{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+/*Style pour tablette*/
+@media (min-width: 768px) {
+    .carre_vert{
+        background-color: yellow;
+    }
+}
+
+/*Style pour ordinateur*/
+@media (min-width: 1200px) {
+.carre_vert {
+    background-color: red;
+    }  
+}
+
+/*Style pour très grand écran*/
+@media (min-width: 1400px) {
+    .carre_vert{
+        background-color: purple;
+    }
+}

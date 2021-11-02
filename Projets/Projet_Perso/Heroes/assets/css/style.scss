@@ -1,0 +1,261 @@
+body{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Ubuntu';
+}
+
+#slide1 {
+    background: url(/assets/img/texturedbg.png) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+.title{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.h1_slide1{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.h1_slide2{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.Logo{
+    width: 150px;
+}
+
+.containerlogo{
+    text-align: center;
+}
+
+.logos1, .logos2, .logos3{
+    display: inline-block;
+}
+
+.whitesquare{
+    background-color: white;
+}
+
+#slide2 {
+    background: url(/assets/img/bg_web_section_1.jpg) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+#slide3 {
+    background: url(/assets/img/bg_web_section_2.jpg) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+#slide4 {
+    background: url(/assets/img/bg_web_section_3.jpg) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+#slide5 {
+    background: url(/assets/img/bg_web_section_4.jpg) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+#slide6 {
+    background: url(/assets/img/bg_web_section_5.jpg) center 0 no-repeat fixed;
+    height: 1080px;
+    width: 100%;
+    background-size : contain;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 150px;
+}
+
+/* Reset elements */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Partie sur le Swipe Menu*/
+
+/* Menu burger */
+#menu-burger {
+	position:fixed; 
+	top: 1em; 
+	left: 1em; 
+	display:inline-block; 
+	cursor:pointer;
+	z-index: 9999;
+}
+
+#menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+	width:32px; 
+	height:5px; 
+	background-color:white; 
+	margin:6px 0; 
+	transition:0.4s;
+}
+
+#menu-burger:hover {
+	opacity: .75; 
+	transition: .5s;
+}
+
+#menu-burger.clicked .bar1 {
+	-webkit-transform:rotate(-45deg) translate(-9px, 6px); 
+	transform:rotate(-45deg) translate(-9px, 6px);
+}
+
+#menu-burger.clicked .bar2 {
+	opacity: 0;
+}
+
+#menu-burger.clicked .bar3 {
+	-webkit-transform:rotate(45deg) translate(-8px, -8px); 
+	transform:rotate(45deg) translate(-8px, -8px);
+}
+
+/* Main menu (slide) */
+#menu {
+	position:fixed; 
+	z-index:9999; 
+	left:-25%; 
+	top: auto; 
+	background:black; 
+	padding: 4em 2em; 
+	width: 10%; 
+	min-height:100%;
+	border-radius: 10px;
+}
+
+#menu ul li {
+	list-style:none;
+}
+
+#menu ul li a {
+	display:block; 
+	color:black; 
+	text-decoration:none;
+	border-radius: 10px;
+	transition:background .5s; 
+	margin-bottom:.5em;
+}
+
+#menu ul li a:hover {
+	background:lightgray; 
+	transition:background .5s;
+	padding: 10px;
+	color: black;
+}
+
+#menu ul li img{
+	width: 40px;
+}
+
+#menu ul p{
+	display: inline-block;
+	font-size: 15px;
+	color: white;
+	margin-left: 10px;
+}
+
+#menu.visible {
+	animation:.5s slideRight ease-in forwards; 
+	transition-delay:0;
+}
+
+#menu.invisible {
+	animation:1s slideLeft ease-out forwards; 
+	transition-delay:0;
+}
+
+/* Animations pour le menu slide */
+@keyframes slideRight {
+	from {left:-25%;}
+	to {left:0%;}
+}
+@-webkit-keyframes slideRight {
+	from {left:-25%;}
+	to {left:0%;}
+}
+@keyframes slideLeft {
+	from {left:0%;}
+	to {left:-25%;}
+}
+@-webkit-keyframes slideLeft {
+	from {left:0%;}
+	to {left:-25%;}
+}
+
+/* Responsive design */
+@media (max-width:1024px) {
+	#menu {left:-50%; width:50%;}
+	#menu-burger.clicked {position:fixed;}
+	#main-block,
+	#second-block {padding:4em 2em;}
+
+	/* Animations pour le menu slide */
+	@keyframes slideRight {
+		from {left:-50%;}
+		to {left:0%;}
+	}
+	@-webkit-keyframes slideRight {
+		from {left:-50%;}
+		to {left:0%;}
+	}
+	@keyframes slideLeft {
+		from {left:0%;}
+		to {left:-50%;}
+	}
+	@-webkit-keyframes slideLeft {
+		from {left:0%;}
+		to {left:-50%;}
+	}
+}
+@media (max-width:600px) {
+	#menu-burger {top:1em; right:2em; z-index:9999;}
+	#menu {left:-100%; width:100%;}
+
+	/* Animations pour le menu slide */
+	@keyframes slideRight {
+		from {left:-100%;}
+		to {left:0%;}
+	}
+	@-webkit-keyframes slideRight {
+		from {left:-100%;}
+		to {left:0%;}
+	}
+	@keyframes slideLeft {
+		from {left:0%;}
+		to {left:-100%;}
+	}
+	@-webkit-keyframes slideLeft {
+		from {left:0%;}
+		to {left:-100%;}
+	}
+}

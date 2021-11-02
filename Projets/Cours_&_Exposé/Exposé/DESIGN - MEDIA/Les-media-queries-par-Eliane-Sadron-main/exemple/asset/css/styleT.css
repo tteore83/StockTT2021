@@ -1,0 +1,7 @@
+/* style pour tablette */
+@media (min-width: 768px) {
+    .carre-vert {
+        background-color: yellow;
+    }
+    
+}

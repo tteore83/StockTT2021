@@ -1,0 +1,391 @@
+@media (min-width: 1200px){
+
+body{
+  font-family: "century gothic", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+/*Header ==========================================================================================================================================================================================================*/
+.relatif{
+  position: relative;
+}
+
+.wlogo{
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+}
+
+.wlogo a img{
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.wlogoazuream{
+  display: flex;
+}
+
+.mlogo{
+  display: none;
+}
+
+.mlogoazuream{
+  display: none;
+}
+
+.menus{
+  display: none;
+}
+
+header{
+  background-image: url("imgs/fond.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  height: 1080px;
+}
+
+.mobilelogo{
+  display: none;
+}
+
+.weblogo{
+  display: flex;
+  margin-top: 7%;
+  margin-left: -2%;
+}
+
+
+.title{
+  color: white;
+  text-transform: uppercase;
+  font-size: xx-large;
+  margin-top: -1%;
+  margin-left: 48%;
+  position: absolute;
+}
+
+.btnexppose{
+  margin-top: 32%;
+  margin-left: 43.5%;
+}
+
+.btnexp{
+  text-transform: uppercase;
+  color: white;
+  font-size: large;
+  background-color: black;
+  padding: 18px 32px;
+  box-shadow: 10px 5px 5px lightgray;
+  text-decoration: none;
+}
+
+/*Section présentation ==========================================================================================================================================================================================================*/
+
+.selonazur{
+  margin-top: 150px;
+}
+.titreprésentation{
+  text-align: center;
+  color: #00BEAA;
+}
+
+.présentation{
+  color: #837D7D;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.traitgris{
+  width: 150px;
+}
+
+.iconeplus{
+  text-align: center;
+}
+
+.txtprésentation{
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+}
+
+/*Section venokis ==========================================================================================================================================================================================================*/
+
+.vaisseau{
+  display: none;
+}
+
+.venomobile{
+  display: none;
+}
+
+.venokisMobiletxt{
+  display: none;
+}
+
+.venokisW{
+  display: flex;
+}
+
+.txtvenokis{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.vaisseaumobile{
+  display: none;
+}
+
+/*Section embarquement ==========================================================================================================================================================================================================*/
+
+.tourismpaceM{
+  display: none;
+}
+
+.horloge{
+  height: 450px;
+  width: 350px;
+  background-color: #00BEAA;
+}
+.horloge img{
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 90px;
+}
+
+.horloge h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.horloge h1 span{
+  display: block;
+}
+
+.horloge p{
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.calendrier{
+  height: 450px;
+  width: 350px;
+  background-color: #4E009B;
+}
+
+.calendrier img{
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 90px;
+}
+
+.calendrier h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.calendrier h1 span{
+  display: block;
+}
+
+.calendrier p{
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.membre{
+  height: 450px;
+  width: 350px;
+  background-color: #9B0067;
+}
+
+.membre img{
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 90px;
+}
+
+.membre h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.membre h1 span{
+  display: block;
+}
+
+.membre p{
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cadres{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.txtembarquement{
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+}
+
+/*Section Section image du robot ==========================================================================================================================================================================================================*/
+
+.bgassistbotM{
+  display: none;
+}
+
+.robotassistW{
+  margin: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 65%;
+}
+
+/*Section activites ==========================================================================================================================================================================================================*/
+
+.activitiesMobile{
+  display: none;
+}
+
+.observation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 10%;
+  color: #837D7D;
+}
+
+.hoverboard{
+  text-align: right;
+  list-style: none;
+}
+
+.spaceobserv{
+  text-align: left;
+  list-style: none;
+}
+
+.visualbot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+
+.visualbot img{
+  width: 40%;
+}
+
+/*Section newsletters ==========================================================================================================================================================================================================*/
+
+.btn2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  padding: 30px 82px;
+  text-align: center;
+  margin: auto;
+  border: white solid 1px;
+}
+
+.aventure{
+  background: linear-gradient(to right, #C2004E, #00FFF7);
+  padding: 150px 0;
+  border-top-right-radius: 75px;
+  margin-top: 6%;
+  text-align: center;
+  margin-right: 6%;
+}
+
+/*Section footer ==========================================================================================================================================================================================================*/
+
+.containermobile{
+  display: none;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #3E3E3E;
+  color: white;
+  height: 350px;
+  align-items: center;
+  gap: 150px;
+}
+
+.suntown{
+  margin-top: 4.7%;
+}
+
+.suntown h1{
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.suntown a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding-top: 1px;
+}
+
+.plan a{
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 1%;
+  color: white;
+}
+
+.plan h1{
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.mention a{
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 1%;
+  color: white;
+}
+
+.mention h1{
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.socials{
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+  margin-top: 10%;
+}
+}

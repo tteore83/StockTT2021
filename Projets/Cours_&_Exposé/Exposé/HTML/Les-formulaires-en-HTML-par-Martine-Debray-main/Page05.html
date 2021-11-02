@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/logo.png" alt="Logo">
+        <h1>autre</h1>
+        <div class="retouraccueil">
+            <a href="index.html">Accueil</a>
+        </div>
+    </header>    
+    <form method="post" action="">
+        <p>
+            <label for="Selectlist">Sélectionnez votre langage favori</label>
+        <input name="text" id="Selectlist" type="language" placeholder="Langages du web" list="langages" required class="form-control">
+            <datalist id="langages">
+            <option value="HTML">
+            <option value="XHTML">
+            <option value="HTML5">
+            <option value="CSS">
+            <option value="CSS3">
+            <option value="PHP">
+            <option value="MySQL">
+            <option value="Javascript">
+            </datalist>
+        </p>
+        <hr>
+        <p>
+            <label for="win">Souhaitez_vous vous inscrire à la New letter ?
+            oui <input type="radio" name="x" id="win" value="oui" checked > 
+            non <input type="radio" name="x" id="win" value="non" >
+            </label>
+        </p>
+        <p>
+            <label for="identifiant">Entrez votre email</label>
+            <input type="email" name="identifiant" id="identifiant">
+         </p>
+        <input type="reset" value="Effacer" >
+        <input type="submit" value="Envoyer">
+</form>
+<footer>
+    <p>Tous droits réservés &copy; <span class="bold">ACS Auxerre 2021</span></p>
+</footer>
+
+</body>
+</html>

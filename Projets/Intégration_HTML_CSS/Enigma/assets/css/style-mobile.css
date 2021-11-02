@@ -1,0 +1,56 @@
+@media (max-width: 1199px) {
+  .nav-web, .section-web {
+    display: none;
+  }
+
+  html, body {
+    font-family: "Roboto";
+    margin: 25px;
+    overflow: hidden;
+  }
+
+  .btntitle {
+    color: #FF796E;
+  }
+
+  .nav-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-mobile h1 {
+    font-size: 28px;
+  }
+
+  .section-mobile h1 {
+    font-size: 42px;
+  }
+  .section-mobile p {
+    font-size: 25px;
+    margin-bottom: 80px;
+  }
+
+  input, button {
+    display: flex;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #8F9095;
+    padding-bottom: 10px;
+  }
+
+  .early {
+    background-color: #1D222B;
+    border-style: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=style-mobile.css.map */

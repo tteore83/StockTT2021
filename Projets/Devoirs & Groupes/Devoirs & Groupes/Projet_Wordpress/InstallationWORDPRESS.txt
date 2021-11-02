@@ -1,0 +1,38 @@
+----- INSTALLATION DE BASE WORDPRESS -----
+
+1 - Allez sur wordpress.org
+2 - Télécharger le fichier .zip wordpress
+3 - Le décompresser sur le bureau
+4 - Installer/ouvrir Laragon
+5 - Ouvrir le dossier "www" et glisser le fichier wordpress décompressé à l'intérieur
+6 - Lancer la base de données dans l'application Laragon
+7 - Se connecter, ne pas mettre de mot de passe, laisser root en utilisateur
+8 - Cliquer sur la fenêtre de gauche "Nouvelle base de données"
+9 - Nommer la base de données et la créer (Ici "wordpress")
+10 - Fermer ensuite la page !
+11 - Lancer "web" sur Laragon
+12 - Taper "wordpress.test" (ici le dossier s'appelle "wordpress", mais si jamais le fichier s'appelle "zozo", 
+alors on marque : "zozo.test"
+
+1 projet = 1 wordpress, donc 1 installation WORDPRESS par projet ! Nom unique, pas de caractères spéciaux,
+pas d'accent, pas d'espace et pas de nombre !
+
+Si le navigateur force les "www", aller dans : 
+1 - about:config et taper "browser.fixup.alternate.prefix"
+2 - cliquer sur l'icône du crayon à droite
+3 - effacer les "www"
+4 - cliquer sur la case cochée
+
+!!! ATTENTION !!!
+
+Lorsqu'on se connecte pour la première fois sur la page (voir numéro 12), on demande de choisir la langue :
+1 ) On choisit la langue française dans la liste
+2 ) On entre l'utilisateur : root, SANS MOT DE PASSE
+3 ) On définit ENSUITE les identifiants du futur site Web pour y avoir accès !
+
+Nom d'administrateur (Identifiant) : admin
+Mot de passe : salut
+Confirmer le mot de passe
+Mettre une adresse e-mail valide : teoretristan@gmail.com
+Ne pas cocher la dernière case !
+Cliquer sur "installer"

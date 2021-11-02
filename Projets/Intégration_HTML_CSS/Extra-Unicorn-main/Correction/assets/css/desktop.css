@@ -1,0 +1,105 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+
+    /* Bouton noir */
+    .btn-dark {
+        display: inline;
+    }
+
+    /**
+     * Navigation
+     */
+    nav .menu-burger {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    /**
+     * Header
+     */
+    header h1 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+    }
+
+    header p {
+        font-size: 1.3em;
+    }
+
+    header img {
+        width: 40%;
+        margin: 150px 0 40px 0;
+    }
+
+    /**
+     * Main
+     */
+    main .project {
+        position: relative;
+    }
+
+    main .project .mobile {
+        display: none;
+    }
+
+    main .project .desktop {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    main .project h4 {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        width: 30%;
+        font-size: 1em;
+        font-weight: normal;
+        font-family: var(--font-body);
+    }
+
+    main .read {
+        display: none;
+    }
+
+    main .newsletter {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 50px;
+    }
+
+    main .newsletter div,
+    main .newsletter img {
+        width: 50%;
+    }
+
+    main .newsletter h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    /**
+     * Footer
+     */
+    footer .icons {
+        display: flex;
+        justify-content: right;
+    }
+
+    footer .icons .icon-embed {
+        border: none;
+    }
+}

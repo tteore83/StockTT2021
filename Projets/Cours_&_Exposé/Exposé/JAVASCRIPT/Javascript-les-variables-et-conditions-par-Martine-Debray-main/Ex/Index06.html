@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La concaténation en JavaScript</title>
+</head>
+<body>
+    <h1>La concaténation en JavaScript</h1>
+    <h2>grace à l'opérateur +</h2>
+    <script>
+        var prenom = "Pierre", espace = ' ', nom = 'Giraud';
+        var moi = prenom + espace + nom;
+        var toi = "Victor" + espace + "Durand";
+        var lui = "Victor Durand";
+
+        var sport = 'courir';
+        var hobbie = "j'aime " + sport;
+
+        alert("Contenu de la variable moi : " + moi +
+        "\nContenu de la variable toi : " + toi +
+        "\nContenu de la variable hobbie : " + hobbie)
+
+        var x = 4 + 2 + "1";
+        var y = "1" + 2 + 4;
+        var z = 2 + "un" + 4;
+
+        alert ('x : ' + x + typeof(x) +
+        '\ny : ' + y + typeof(y) +
+        '\nz : ' + z + typeof(z));
+        
+
+
+    </script>
+</body>
+</html>

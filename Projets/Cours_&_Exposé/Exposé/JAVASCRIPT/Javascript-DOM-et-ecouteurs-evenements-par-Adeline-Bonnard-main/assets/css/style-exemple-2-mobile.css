@@ -1,0 +1,209 @@
+@media (max-width: 414px) {
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        overflow: hidden;
+        
+       }
+    
+    
+       body {
+           background-color: rgb(163, 125, 141);
+           background-image: url("../images/rococo.svg");
+           background-repeat: repeat;
+       }
+    
+       img {
+    
+        max-width: 60%;
+        height: auto;
+        position: absolute;
+       }
+    
+       #stache {
+           display: none;
+           margin-top: 27vh;
+           margin-left: 14.5vh;
+           z-index: 50;
+           max-width: 13%;
+           height: auto;
+       }
+    
+      
+       #marieanto {
+           margin-top: 10vh;
+           margin-left: 8vw;
+          
+          
+       }
+    
+       #hubert {
+    
+        margin-top: 52vh;
+        margin-left: 40vw;
+        max-width: 100%;
+        cursor: pointer;
+        
+       }
+    
+       a {
+           text-decoration: none;
+           color: white;
+           font-weight: 800;
+           font-size: 1.2em;
+          transform: translateY(85vh);
+           margin-left: 6vw;
+           margin-top: 8vh;
+           position: absolute;
+       }
+    
+    
+    
+    
+       #sound {
+    display: none;
+    }
+    
+    
+    #nepascliquer {
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-weight: 800;
+        transform: translateX(17vw);
+        margin-top: 2vh;
+    }
+    
+    
+       /*Overlay*/
+    
+      .overlay {
+       
+        height: 100%;
+        width: 0;
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.9); 
+        overflow-x: hidden; 
+        transition: 0.5s; 
+        cursor: pointer;
+      }
+      
+      
+      .overlay-content {
+        position: relative;
+        top: 10%; 
+        width: 100%; 
+        margin-top: 5px;
+      }
+    
+      /*Formulaire dans l'overlay*/
+    
+      #contact {
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -1vh;
+          text-align: left;
+          color: white;
+          white-space: pre-line;
+          font-size: 0.9em;
+      }
+    
+      #x {
+          font-size: 3em;
+          color:rosybrown;
+          background-color:rgba(70, 51, 36, 0.9);
+          padding: 0.5em 0.8em;
+          border-radius: 0.3em;
+          position: absolute;
+          margin-left: 55vw;
+          margin-top: -18vh;
+      }
+    
+      #contact p {
+          font-size: 2.1em;
+      }
+    
+      input, #goodie {
+          margin-top: 1.7vh;
+          background-color:rgba(255, 255, 255, 0.2);
+          outline: none;
+          color:rgb(255, 195, 126);
+          text-align: center;
+            }
+    
+    
+    option {
+        color: rgb(209, 47, 74);
+    }
+    
+    button {
+        background-color:rgb(209, 47, 74);
+        color: white;
+        font-weight: 800;
+        padding: 0.4em 2em;
+        text-align: center;
+    }
+    
+    
+    select {
+        background-color:rgb(163, 125, 141);
+    }
+    
+    select option {
+        background-color:rgb(255, 195, 205);
+    }
+    
+    #message {
+        margin-top: 1em;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

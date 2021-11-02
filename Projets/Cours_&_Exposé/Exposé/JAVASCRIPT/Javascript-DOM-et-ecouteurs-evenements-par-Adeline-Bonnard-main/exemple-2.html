@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+   
+    <link rel="stylesheet" href="assets/css/style-exemple-2-mobile.css">
+
+    <link rel="stylesheet" href="assets/css/style-exemple-2.css">
+
+
+    <!--<script src="./assets/touchemulator-master/touch-emulator.js"></script>
+    <script> TouchEmulator(); </script>-->
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
+
+    <title>Ecouteurs d'événements | Events Listener</title>
+
+
+</head>
+
+
+
+<body>
+
+<img id="marieanto" onmouseover="moustache()" src="assets/images/marieanto.svg" alt="Marie-Anto est dans la place"> <!--fonction d'événement (méthode rapide) de passage de souris (onmouseover) | magie ! la moustache apparaît au passage de notre souris-->
+<img id="stache" src="assets/images/moustache.svg" alt="go be mustache">
+<img id="hubert" src="assets/images/hubert.svg" alt="The king of cat">
+
+
+<a href="#" onclick="overlay()">Contacter Marie-Anto</a> <!--Le onClick vient récupérer la fonction paramétrée-->
+
+<audio id="sound" controls>
+    <source src="./assets/Angry-cat-sound-effect.mp3" type="audio/mpeg"><!--juste pour faire joli et parce-que Hubert tenait à s'exprimer-->
+</audio>
+<a id="nepascliquer" href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank"> > Ne me clique pas</a><!--Un lien dont on peut bloquer le comportement-->
+
+
+ <!-- On s'amuse avec un overlay | Formulaire -->
+ <div id="formulaire" class="overlay">
+
+    
+    <!-- Contenu de l'overlay -->
+
+    <div class="overlay-content">
+
+        <div id="contact">
+        <p>Viens te faire inviter chez Marie-Anto !</p>
+        <p id="x" onclick="closeOverlay()">X</p>
+
+
+        <label>Quel est ton nom ?
+            <input id="name" type="text">
+            </label>
+
+            <label>Que veux-tu avec ton thé?
+                <select id="goodie">
+                    <option value="rien">Rien</option>
+                    <option value="nuts">Des cacahuètes</option>
+                    <option value="cupcake">Un cupcake</option>
+                </select>
+                </label>
+
+                <button id="button" type="button">Invite-moi, s'teup' !</button>
+                <div id="message"></div>
+            </div>
+    </div>
+  
+  </div>
+  
+  
+
+
+
+<!--Encore un script à mettre dans un fichier JS-->
+
+<script>
+// Le onClick sur le portrait de Hubert The Cat (méthode de warriors)
+var clickHubert = document.getElementById("hubert");       //On store/sélectionne un élément pour y caser un futur événement
+var onClick = function() {                                 // On définit la fonction qui va enclencher l'événement (ici, l'image change)
+    clickHubert.src="./assets/images/hubert-onclick.svg";
+}
+clickHubert.addEventListener("click", onClick);            //click=correspond à l'événement natif choisi + onClick=notre événement attaché
+//Le addEventListener (écouteur d'événement) déclenche ce que l'on souhaite
+
+
+
+
+
+// Marie-Anto se laisse pousser la moustache
+function moustache() {                                  //Il est possible d'attacher directement un événement sur l'élement html (voir plus haut)
+    var moustache = document.getElementById("stache");
+    moustache.style.display = "block";  
+                 
+}
+////////////////////                                    // test library HAMMER.js pour les fonctions touch : http://hammerjs.github.io/touch-emulator/
+function moustacheMobile(ev) {
+    var moustache = document.getElementById("stache");
+    moustache.style.display = "block";  
+}
+document.body.addEventListener('touchmove', moustacheMobile, false); 
+
+
+
+
+
+//La partie formulaire ! Intéragissons...avec le bouton
+var button = document.getElementById("button");                 //Jusque là tout baigne, on vient comme d'hab' récupérer l'élément visé
+
+var onButtonClick = function() {
+    var name = document.getElementById("name").value;           //hop ! des conditions qui viennent agrémenter
+    var goodie = document.getElementById("goodie").value;
+    var choix;
+    if (goodie === "rien") {
+        choix = "T'as aucune personnalité " + name;
+    } else if (goodie === "nuts") {
+        choix = "Désolée, " + name + " , je suis allergique !";
+    } else {
+        choix = "Pas de chance, " + name + " , j'ai que des macarons !";
+    }
+    document.getElementById("message").textContent += choix;  
+    
+  };
+
+  button.addEventListener("click", onButtonClick);             //On retrouve notre bon vieux "click" natif + la fonction paramétrée
+
+
+
+
+
+
+  //Et si on avait le pouvoir d'empêcher certaines actions ? Hop, empêchons de cliquer par inadvertance...
+  document.getElementById("nepascliquer").addEventListener("click", function(event){
+  event.preventDefault()
+  
+}); //preventDefault() bloque les actions (utile pour celles par défaut que nous ne souhaitons pas pour les visiteurs...(car oui, la vérité est ailleurs)
+
+
+/*document.body.addEventListener('touchmove', function(event) {     // on peut gérer les intéractions onTouch ou Mousmove selon le device
+  event.preventDefault();
+}, false);*/ 
+    
+  
+     
+
+
+
+
+
+            
+////////////////////////
+function overlay() {
+  document.getElementById("formulaire").style.width = "100%";   //fonction pour ouvrir l'overlay quand on clique sur le lien
+}
+
+
+function closeOverlay() {
+  document.getElementById("formulaire").style.width = "0%";    //fonction pour fermer l'overlay quand on clique sur X  
+} 
+
+</script>
+    
+</body>
+
+
+
+
+</html>

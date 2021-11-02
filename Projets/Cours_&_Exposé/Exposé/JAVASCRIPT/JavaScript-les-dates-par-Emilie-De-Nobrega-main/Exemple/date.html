@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href src="date.css">
+    <script src="date.js"></script>
+    <title>Gestion des dates</title>
+</head>
+<body>
+    <form style='display:block' name="chronoForm"> <!--block pour faire réapparaitre-->
+        <input type="text" name="chronotime" id="chronotime" value="0:00:00:00"/>
+          <input type="button" name="startstop" value="start" onClick="chronoStart()" />
+          <input type="button" name="reset" value="reset" onClick="chronoReset()" />
+      </form>
+</body>
+</html>    

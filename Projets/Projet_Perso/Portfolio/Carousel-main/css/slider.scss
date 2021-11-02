@@ -1,0 +1,27 @@
+@import '_vars';
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+img {
+    border-radius: 6px;
+    box-shadow: 0 3px 12px $black-60;
+}
+
+svg {
+    cursor: pointer;
+    color: $black-40;
+    transition: 500ms color;
+
+    &:hover {
+        color: $black;
+        transition: 500ms color;
+    }
+}

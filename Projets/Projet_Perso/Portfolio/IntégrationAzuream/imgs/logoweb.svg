@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="373.333" height="114.603" viewBox="0 0 373.333 114.603">
+  <g id="Groupe_6" data-name="Groupe 6" transform="translate(-280.453 -63.078)">
+    <path id="Tracé_1" data-name="Tracé 1" d="M602.423,177.681H280.453l56.856-114.6H653.786Z" fill="#f4f4f4" opacity="0.9"/>
+    <g id="Groupe_5" data-name="Groupe 5" transform="translate(348.869 107.601)">
+      <g id="Groupe_1" data-name="Groupe 1">
+        <path id="Tracé_2" data-name="Tracé 2" d="M378.562,113.291l21.007,43.021h-1.96l-7.954-16.022H367.191l-7.844,16.022h-1.735Zm-.168,3.864-10.476,21.511h21.063Z" transform="translate(-357.612 -113.291)" fill="#2f2f2f"/>
+        <path id="Tracé_3" data-name="Tracé 3" d="M429.523,154.816v1.625H408.405l18.486-40.389H408.405v-1.624h21.286l-18.542,40.388Z" transform="translate(-363.367 -113.42)" fill="#2f2f2f"/>
+        <path id="Tracé_4" data-name="Tracé 4" d="M451.367,157.225h-.56a11.8,11.8,0,0,1-8.711-3.585,12.277,12.277,0,0,1-3.557-9.019V114.428h1.85v30.137a10.805,10.805,0,0,0,3.081,7.9,10.819,10.819,0,0,0,15.209.027,10.84,10.84,0,0,0,3.052-7.926V114.428h1.849v30.081a12.447,12.447,0,0,1-3.557,9.1A11.691,11.691,0,0,1,451.367,157.225Z" transform="translate(-366.782 -113.42)" fill="#2f2f2f"/>
+        <path id="Tracé_5" data-name="Tracé 5" d="M476.254,114.428h2.408a13.282,13.282,0,0,1,9.551,4.005,12.714,12.714,0,0,1,4.119,9.41,12.507,12.507,0,0,1-4.2,9.383,12.947,12.947,0,0,1-9.019,3.978h-.392l14.452,15.237h-2.409l-12.716-13.333v13.333h-1.792Zm1.792,25.151h1.009a11,11,0,0,0,8.01-3.472,11.852,11.852,0,0,0-8.29-20.054h-.729Z" transform="translate(-371.055 -113.42)" fill="#2f2f2f"/>
+        <path id="Tracé_6" data-name="Tracé 6" d="M618.831,114.428v42.013h-1.849V116.613l-19.829,40.612-19.719-40.612v39.828h-1.68V114.428h2.688l18.879,38.763,18.933-38.763Z" transform="translate(-382.329 -113.42)" fill="#2f2f2f"/>
+      </g>
+      <g id="Groupe_4" data-name="Groupe 4" transform="translate(127.629 1.054)">
+        <g id="Groupe_2" data-name="Groupe 2">
+          <rect id="Rectangle_1" data-name="Rectangle 1" width="26.305" height="1.773" transform="translate(0.887 21.658)" fill="#0d988c"/>
+          <path id="Tracé_7" data-name="Tracé 7" d="M532.218,139.906" transform="translate(-505.026 -117.361)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_8" data-name="Tracé 8" d="M532.218,115.48" transform="translate(-505.026 -114.593)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_9" data-name="Tracé 9" d="M532.218,160.81" transform="translate(-505.026 -119.73)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_10" data-name="Tracé 10" d="M528.743,156.447H501.551V114.48h27.192v1.773H503.324v38.42h25.419Z" transform="translate(-501.551 -114.48)" fill="#0d988c"/>
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="1.773" height="14.186" transform="translate(26.12 9.21)" fill="#0d988c"/>
+        </g>
+        <g id="Groupe_3" data-name="Groupe 3" transform="translate(31.958)">
+          <rect id="Rectangle_3" data-name="Rectangle 3" width="26.305" height="1.773" transform="translate(0.701 18.534)" fill="#0d988c"/>
+          <path id="Tracé_11" data-name="Tracé 11" d="M538.384,136.383" transform="translate(-537.682 -116.962)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_12" data-name="Tracé 12" d="M538.384,160.81" transform="translate(-537.682 -119.73)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_13" data-name="Tracé 13" d="M538.384,115.48" transform="translate(-537.682 -114.593)" fill="#0d988c" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Tracé_14" data-name="Tracé 14" d="M565.576,156.447H538.384v-1.773H563.8v-38.42H538.384V114.48h27.192Z" transform="translate(-537.682 -114.48)" fill="#0d988c"/>
+          <rect id="Rectangle_4" data-name="Rectangle 4" width="1.773" height="14.151" transform="translate(0 18.606)" fill="#0d988c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+@media (min-width: 1200px){
+
+    body{
+        background-color: #3E3E3E;
+        font-family: "century gothic", sans-serif;
+        font-size: 20px;
+    }
+
+    .logo{
+        margin-top: 50px;
+        margin-left: 670px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-bottom: 200px;
+    }
+    
+    .menus{
+        display: flex;
+        gap: 50px;
+        margin-left: 400px;
+    }
+    
+    
+    
+    .prendre h1{
+        margin-left: 820px;
+        margin-top: -30px;
+        font-size: 25px;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .form{
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.3);
+        font-size: x-large;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-style: hidden;
+        border-bottom: inset white;
+        border-width: 2px;
+        width: 1000px;
+    }
+    
+    .bloc{
+        margin-left: 450px;  
+        margin-top: 50px;
+    }
+    
+    .nom{
+        margin-top: 30px;
+    }
+    
+    .prenom{
+        margin-top: 30px;
+    }
+    
+    .telephone{
+        margin-top: 30px;
+    }
+    
+    .btngo{
+        text-transform: uppercase;
+        color: #3E3E3E;
+        font-size: large;
+        background-color: white;
+        padding: 18px 70px;
+        box-shadow: 10px 5px 5px #707070;
+        text-decoration: none;
+    }
+    
+    .btn{
+        margin-top: 150px;
+        margin-left: 782px;
+        display: flex;
+    }
+    
+    }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="assets/css/style-exemple-1-mobile.css">
+
+    <link rel="stylesheet" href="assets/css/style-exemple-1.css">
+
+    <title>Exemple Manipulation DOM | ABRACADABRA</title>
+</head>
+
+
+<body>
+    
+    <h2>Finite Incantatem</h2>
+
+<img id="harry" src="assets/images/harry.svg" alt="Harry Potter se lance sur les internets">
+
+<div id="licorne"></div> <!--Je suis un élément vide, qui va vite se remplir dés que les commentaires seront supprimés-->
+
+
+<p>Bonjour! Moi c'est Harry, je découvre la toile LOL, j'espère que "qui vous savez" ne me trouvera pas!
+    J'aime <span class="abracadabra">la magie</span>, les sortilèges, les chouettes. Hermione m'agaçe en ce moment ! comment
+    elle se la pète avec son blog...chant-mé ! Comme si elle était la seule à adorer <span class="abracadabra">la magie</span>.
+    Sérieux, j'entends encore sa voix dans ma tête : "Harry, tu sais, <span class="abracadabra">la magie</span> c'est pas un
+    jeu !"...et blablabla...je le sais moi que <span class="abracadabra">la magie</span> c'est important.
+</p>
+
+<a id="jeChange" class="couleur" href="#">Je suis un lien1</a>
+<a class="couleur" href="#">Je suis un lien2</a>
+
+    <!--Je suis un script à mettre dans un fichier JS-->
+
+    <script>
+
+/*document.body.innerHTML = "Avada Kedavra ! Place aux licornes !"          // On agit sur l'élément body (whoups ! ça supprime tout)
+document.body.style.color = "white";                                      // On lui assigne une propriété de style (comme en CSS)
+document.title = "GNA HA HA !";                                            // On peut même agir sur le titre de la page
+document.write("Faites péter les Rainbows !");*/                             // Autre possibilité pour éditer quelque chose  
+
+
+
+
+
+
+/*var text = document.querySelectorAll("a");                                 //Sélectionner via index quand il y a plusieurs éléments
+text[1].style.color = "white";*/
+
+
+/*document.body.style.backgroundColor = "#B42B51";
+document.getElementById('jeChange').innerHTML = "Hop ! je change";*/
+
+
+/*ar changementDeBlabla = document.querySelector("h2");                    // Utilisation du querySelector (pour un seul élément)
+changementDeBlabla.textContent = "Des paillettes & des rainbows";*/
+
+
+/*var changementDeLiens = document.querySelectorAll(".couleur");             //Utilisation du querySelectorAll pour viser tous les nodes
+for (var i = 0; i < changementDeLiens.length; i++) {
+  changementDeLiens[i].style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+}*/
+
+
+//Remplacer plusieurs éléments à la fois (usage de l'itération & manipulation des classes css)
+/*var laMagie = document.getElementsByClassName("abracadabra");                    // On peut aussi viser avec getElementsByTagName("span");
+for(var i = 0; i < laMagie.length; i++) {
+    laMagie[i].innerHTML = "les LICORNES";
+}*/
+
+
+
+//harry.parentNode.removeChild(harry);          //on supprime un élément
+
+/*var img = document.createElement("img");      // on en recrée un autre (ici, dans la div dédiée)
+img.src="./assets/images/unicorn.svg";
+img.alt="Les licornes dominent le monde";
+var uneNouvelleImage = document.getElementById("licorne");
+uneNouvelleImage.appendChild(img);*/            //le node (noeud)
+
+    </script>
+    
+</body>
+
+
+</html>

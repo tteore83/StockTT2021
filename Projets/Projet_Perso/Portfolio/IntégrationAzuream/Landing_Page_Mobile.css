@@ -1,0 +1,372 @@
+@media (max-width: 896px){
+body{
+    font-family: "century gothic", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+main{
+    margin-left: 10px;
+}
+
+header{
+    background-image: url("imgs/fond.svg");
+    height: 750px;
+}
+
+.weblogo{
+    display: none;
+}
+
+.mobilelogo{
+    width: 350px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.wlogo{
+    display: none;
+}
+  
+.wlogoazuream{
+    display: none;
+}
+
+.menus{
+    gap: 180px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-left: 80px;
+    position: absolute;
+}
+
+.btnexppose{
+    margin-top: 450px;
+    text-align: center;
+}
+  
+.btnexp{
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+    background-color: black;
+    padding: 18px 32px;
+    box-shadow: 10px 5px rgba(255,255,255,0.7);
+    text-decoration: none;
+}
+
+/*Le tourisme spatial selon AZUREAM*/
+
+.tourismpace{
+    margin: 20px;
+}
+
+.selonazur{
+    margin-top: 100px;
+}
+
+.titreprésentation{
+    color: #00BEAA;
+}
+  
+.txtprésentation{
+    color: #837D7D;
+}
+  
+.bold{
+    font-weight: bold;
+}
+  
+.traitgris{
+    width: 150px;
+    margin-left: 10px;
+    border: solid 2px;
+}
+
+.iconeplus{
+    display: none;
+}
+
+/*Venokis*/
+
+.txtvenokis{
+    margin: 20px;
+}
+
+.venoweb{
+    display: none;
+}
+
+.venokisW{
+    display: none;
+}
+
+.vaisseau{
+    display: none;
+}
+
+.vaisseaumobile{
+    width: 360px;
+}
+
+.vaisseauweb{
+    display: none;
+}
+
+.titreprésentationveno{
+    text-align: center;
+    color: #00BEAA;
+}
+
+.txtvenokis{
+    color: #837D7D;
+    text-align: center;
+}
+
+.traitgrisveno{
+    width: 150px;
+    margin-left: 100px;
+    border: solid 2px;
+}
+
+/*Embarquement à bord du Vaisseau NAF122225 = Cité GALASSIA*/
+
+.tourismpaceW{
+    display: none;
+}
+
+.titreprésentationemb{
+    color: #00BEAA;
+    text-align: right;
+    margin: 20px;
+}
+
+.txtembarquement{
+    color: #837D7D;
+    text-align: left;
+    margin: 20px;
+
+}
+
+.traitgrisemb{
+    width: 150px;
+    margin-left: 170px;
+    border: solid 2px;
+}
+
+.horloge{
+    height: 450px;
+    background-color: #00BEAA;
+}
+
+.horloge img{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 90px;
+}
+  
+.horloge h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+  
+.horloge h1 span{
+    display: block;
+}
+  
+.horloge p{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.calendrier{
+    height: 450px;
+    background-color: #4E009B;
+}
+
+.calendrier img{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 90px;
+}
+  
+.calendrier h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+  
+.calendrier h1 span{
+    display: block;
+}
+  
+.calendrier p{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.membre{
+    height: 450px;
+    background-color: #9B0067;
+}
+  
+.membre img{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 90px;
+}
+  
+.membre h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+  
+.membre h1 span{
+    display: block;
+}
+  
+.membre p{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*Section Section image du robot*/
+
+.bgassistbotW{
+    display: none;
+}
+
+.robotassistM{
+    margin: 0;
+    width: 360px;
+}
+
+/*Section activites*/
+
+.activitiesWEB{
+    display: none;
+}
+
+.titreprésentationact{
+    color: #00BEAA;
+    text-align: center;
+}
+
+.traitgrisact{
+    width: 170px;
+    margin-left: 90px;
+    border: solid 2px;
+}
+
+.observation{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #837D7D;
+}
+  
+.visualbot img{
+    width: 360px;
+}
+
+/*Section newsletters ==========================================================================================================================================================================================================*/
+
+.btn2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    padding: 30px 82px;
+    text-align: center;
+    margin: auto;
+    border: white solid 1px;
+}
+  
+.aventure{
+    background: linear-gradient(to right, #C2004E, #00FFF7);
+    padding: 150px 0;
+    margin-top: 6%;
+    text-align: center;
+}
+
+/*Section footer ==========================================================================================================================================================================================================*/
+
+.containerweb{
+    display: none;
+}
+
+footer{
+    background-color: #3E3E3E;
+    color: white;
+    height: 400px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.suntown H1{
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.suntown a{
+    text-decoration: none;
+    color: white;
+    padding-top: 1px;
+}
+  
+.plan a{
+    text-decoration: none;
+    margin-bottom: 1%;
+    color: white;
+}
+  
+.plan h1{
+    font-weight: lighter;
+    font-size: 1em;
+}
+  
+.mention a{
+    text-decoration: none;
+    margin-bottom: 1%;
+    color: white;
+}
+  
+.mention h1{
+    font-weight: lighter;
+    font-size: 1em;
+}
+  
+.socials{
+    padding-top: 50px;
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    padding-left: 25px;
+}
+}

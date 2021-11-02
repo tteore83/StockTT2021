@@ -1,0 +1,22 @@
+==================== Notes GitHub ====================
+
+1/ cd + tab (choisir le fichier de destination)
+
+2/ git init (il va reprendre l'ensemble des éléments de destinations)
+
+3/ git remote -v (vérification du lien de destination)
+
+4/ git branch -l (vérification de la bonne branch adéquat)
+
+**4.1/ git checkout nomexample (permet de vérifier la branche de destination)
+
+4.2/ git branch createnom (permet de créer une branche)
+
+4.3/ git branch -d (delete la branch)**
+
+5/ git add . (vérification de la mise à jour)
+
+6/ git commit -m "message" (lui affecter un message)
+
+7/ git push (nous permet de mettre à jour les éléments)
+

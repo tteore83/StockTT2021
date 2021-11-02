@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les opérateurs logiques en JavaScript</title>
+</head>
+<body>
+    <h1>Les opérateurs logiques en JavaScript</h1>
+    <h2>ET, OU, CONTRAIRE</h2>
+    <img src="assets/imgs/OpLogique.PNG" alt="Les opérateur logiques">
+    <script>
+        var heure = 9;
+        /* AND : && */
+        if (heure >= 0 && heure < 12){
+            alert("C'est le matin");
+        }
+        else if (heure === 12 == true){
+            alert("il est midi pile");
+        }
+        else if (heure > 12 && heure <= 24){
+            alert("C'est l'après_midi ou le soir");
+        }
+        else{
+            alerte("La valeur rentée ne semble pas valide");
+        }
+        /* OR : ||*/
+        heure = 26;
+        
+        if (heure < 0 || heure > 24 == true){
+            alert("L'heure est invalide");
+        }
+        else{
+            alert("L'heure est : " + heure)
+        }
+        /* CONTRAIRE : ! */
+        heure = 18;
+
+        if (!(heure <= 16)  == true){
+            alert("Il est plus de 16h");
+        }
+        else {
+            alert("Il est moins de 16h")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		Generate a Random Password
+		using JavaScript
+	</title>
+</head>
+
+<body style="text-align:center;">
+	
+	<h1>
+		Générateur de mot de passe
+	</h1>
+	
+	<h3>Cliquer sur le bouton pour générer un mot de passe aléatoire
+	</h3>
+	
+	<button onclick="gfg_Run()">
+		Générer
+	</button>
+	<br>
+	
+	<div>
+		<p id="tristan"></p>
+	</div>
+	
+<!--METHODE 1 : Créer une chaîne de caractères composée d'alphabets 
+    (minuscules et majuscules), de chiffres et de caractères spéciaux. 
+    On utilise les méthodes Math.random() et Math.floor() 
+    pour générer un nombre compris entre 0 et l-1 (où l est la longueur de la chaîne). 
+    Pour obtenir le caractère de la chaîne de caractères d'un index particulier, 
+    nous pouvons utiliser la méthode .charAt(). 
+    Celle-ci continuera à concaténer les caractères aléatoires de la chaîne, 
+    jusqu'à ce que le mot de passe de la longueur souhaitée soit obtenu.-->
+
+	<!--<script>
+		var el_down = document.getElementById("tristan");
+
+		/* Function to generate combination of password */
+		function generateP() {
+			var pass = '';
+			var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' +
+					'abcdefghijklmnopqrstuvwxyz0123456789@#$';
+			
+			for (i = 1; i <= 16; i++) {
+				var char = Math.floor(Math.random()* str.length + 1);
+				pass += str.charAt(char)
+			}
+			
+			return pass;
+		}
+
+		function gfg_Run() {
+			el_down.innerHTML = generateP();
+		}
+	</script>-->
+
+
+    <!--METHODE 2 : Dans cette approche, nous utiliserons la méthode Math.random() 
+        pour générer un nombre compris entre 0 et 1, 
+        puis nous le convertirons en base 36 (qui comprendra les lettres 0-9 et a-z en minuscules) 
+        en utilisant la méthode .toString(). Pour supprimer le zéro initial et le point décimal, 
+        la méthode .slice() sera utilisée et Math.random().toString(36).slice(2) pour générer le mot de passe. 
+        Pour les lettres majuscules, utilisez la même méthode avec la méthode .uppercase() 
+        en concaténation avec la méthode précédente.-->
+
+    <!--<script>
+        var el_down = document.getElementById("tristan");
+          
+        function gfg_Run() {
+            el_down.innerHTML = 
+                Math.random().toString(36).slice(2) + 
+                Math.random().toString(36).toUpperCase().slice(2);
+            } 
+    </script>-->
+
+</body>
+
+</html>

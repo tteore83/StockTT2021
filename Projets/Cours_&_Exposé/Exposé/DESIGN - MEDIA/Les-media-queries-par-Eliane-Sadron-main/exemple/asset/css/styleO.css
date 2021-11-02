@@ -1,0 +1,7 @@
+
+/* style pour ordinateur */
+@media (min-width: 1200px) {
+    .carre-vert {
+        background-color: red;
+    }  
+}

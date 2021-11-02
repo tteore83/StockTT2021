@@ -1,0 +1,100 @@
+@media (max-width: 414px) {
+    * {
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        overflow: hidden;
+    }
+    
+    body {
+        background-color: rgb(14, 0, 32);
+    }
+    
+    #harry {
+    
+        max-width: 100%;
+        margin-left: 45vw;
+        margin-top: 8em;
+        z-index: 50;
+        position: absolute;
+    }
+    
+    #licorne img {
+    
+        max-width: 100%;
+        margin-left: 45vw;
+        z-index: 50;
+        position: absolute;
+        margin-top: 7em;
+    }
+    
+    
+    h2 {
+    
+        font-size: 3em;
+        color: white;
+        margin-top: 0.3em;
+        margin-left: 2em;
+        position: absolute;
+    }
+    
+    p {
+    
+        color: rgba(255, 253, 253, 0.582);
+        position: absolute;
+        width: 50%;
+        margin-left: 1.8em;
+        margin-top: 15em;
+    }
+    
+    .abracadabra {
+    
+        color: yellow;
+        font-weight: bold;
+    }
+    
+    .couleur {
+    
+        text-decoration: none;
+        font-weight: 800;
+        color: #ff9137;
+        margin-left: 1em;
+        margin-top: 94vh;
+        display: inline-block;
+        width: 40%;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

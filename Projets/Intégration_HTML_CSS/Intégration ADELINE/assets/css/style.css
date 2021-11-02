@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@media (min-width: 1200px) {
+  .nav-mobile, .section1-mobile, .section2-mobile,
+.section3-mobile, .section4-mobile, .footer-mobile,
+.section15-mobile {
+    display: none;
+  }
+
+  body {
+    font-family: "Georama", sans-serif;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  nav ul a {
+    opacity: 0.5;
+    transition: opacity 500ms;
+    text-decoration: none;
+    color: #005570;
+  }
+
+  nav a:hover {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+
+  .nav-h1 {
+    font-family: "Poiret One";
+    font-size: 50px;
+    padding: 10px;
+    color: #ffb253;
+  }
+
+  .watch {
+    display: flex;
+    margin-left: auto;
+    width: 500px;
+    margin-top: -150px;
+  }
+
+  .section1-web {
+    background: #f3767e;
+    background-image: linear-gradient(to bottom, #f3767e, #ff9069, #ffb253, #ffd849, #dfff5b);
+    margin-top: -500px;
+    padding-bottom: 450px;
+  }
+  .section1-web .title {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .section1-web .bubblespink {
+    display: flex;
+    width: 200px;
+    margin-top: -480px;
+    margin-left: 140px;
+  }
+  .section1-web .bubblesorange {
+    display: flex;
+    width: 150px;
+    margin-top: 80px;
+    margin-left: 1050px;
+  }
+
+  .section2-web .woman-watch {
+    width: 100%;
+    margin-top: -250px;
+  }
+  .section2-web .bubblesorange {
+    display: flex;
+    width: 300px;
+    margin-top: -380px;
+  }
+  .section2-web .bgp {
+    position: relative;
+    background-color: #ffffff;
+    z-index: 60;
+    width: 350px;
+    margin: auto;
+  }
+  .section2-web .bgp p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -380px;
+    color: #005570;
+  }
+  .section2-web .bgp p span {
+    display: block;
+    color: #ffb253;
+  }
+  .section2-web .notification {
+    display: flex;
+    margin: auto;
+    width: 200px;
+  }
+
+  .section3-web .prythme, .section3-web .pcalpinsanté {
+    display: block;
+    margin: auto;
+  }
+  .section3-web .prythme img, .section3-web .pcalpinsanté img {
+    width: 150px;
+  }
+  .section3-web p {
+    color: #005570;
+    font-size: 20px;
+  }
+  .section3-web p span {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
